@@ -33,5 +33,15 @@
     console. In console you can be able to see in the error message with the line
     address which line of code is throwing the error.
 
+    1. Mini Challenge 
+
+    Disappear the circles using the style in javascript.
+    Explanation Disapear the circle using the javascript that means once you click on
+    the existing circle. It should disapear from the page.
+
+    If you want any hint It will be in the DisappearingCricle.html file.
+
+
+
 
 

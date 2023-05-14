@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <p id="firstParagraph"> Hello World! </p>
+
+    <button id="firstButton"> first button for text change </button>
+
+    <p id="SecondParagraph"> Javascript is ... </p>
+
+    <button id="secondButton"> second Button for Append text </button>
+
+    <p id="thirdParagraph"></p>
+
+    <button id="thirdButton"> third Button for the surprise text </button>
+
+    <!-- ------------------------------------------------------------------- -->
+
+        <p id="moreText"> This is some text </p>
+
+        <button id="styleText"> Style Text</button>
+
+    <script type="text/javascript">
+
+        document.getElementById("firstButton").onclick = function () {
+
+            document.getElementById("firstParagraph").innerHTML = "Hello Ghost!"
+        }
+
+        document.getElementById("secondButton").onclick = function () {
+
+            document.getElementById("SecondParagraph").innerHTML = "I think .." + document.getElementById("SecondParagraph").innerHTML + "awesome!";
+        }
+
+        document.getElementById("thirdButton").onclick = function () {
+
+            document.getElementById("thirdParagraph").innerHTML = "<h1>Hi there!</h1>";
+
+        }
+
+        //---------------------------------------------------------------------------------------------
+
+        document.getElementById("styleText").onclick = function () {
+
+            document.getElementById("moreText").style.color = "red";
+            document.getElementById("moreText").style.fontSize = "50px";
+
+        }
+
+        /*
+        
+        Now in this new text as in previous html file we have seen we can append the html code using
+        Javascript.
+        And in this recent one we are changing the style of a html text using javascript.
+
+        */
+
+    </script>
+
+</body>
+
+</html>
