@@ -10,6 +10,8 @@
 
     <body>
 
+        <p id="text"> Hello Javascript! </p>
+
         <!-- 
             Now we are going to see the how the script tag works in a html.
             we can use <script> tag to write our javascript separately to achieve clean coding.
@@ -18,7 +20,18 @@
          -->
         <script type="text/javascript">
 
-            alert(" Welcome your Page have been relaoded! ");
+            // for checking both the lines below you have to execute it one by one and comment out the lines accordingly.
+            alert(" Welcome your Page have been relaoded! ");   
+
+            document.getElementById("text").innerHTML = "Hello ChangedText";
+
+            /* 
+                Here I am trying to demostrate how we can access the html element into our javascript
+                and change it to the new one which we want to set.
+
+                so here we are accessing the text based on the id and setting it to the new one through javascript.
+
+            */
 
         </script>
 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <p id="text"> Hello Javascript! </p>
+
+        <button id="mybutton"> Change text </button>
+        
+        <script type="text/javascript">
+
+            document.getElementById("mybutton").onclick = function() {
+
+                document.getElementById("text").innerHTML = "Hello Ghost"; 
+                
+                // Here we are setting the new text whne button is clicked
+
+            }
+            /* 
+            Here there is two scenarion for using the onClick function in java script
+            either we can use it here in the script tag or we can use the inline javascript
+            as we have done it in the InternalJavascript.html
+
+            I am using it here because we have start using the javascripts im the the particular tag.
+            For the clean looking code. 
+            */
+
+        </script>
+
+    </body>
+</html>
