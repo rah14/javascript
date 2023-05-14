@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+
+    <p id="firstParagraph"> Hello World! </p>
+
+    <button id="firstButton"> first button for text change </button>
+
+    <p id="SecondParagraph"> Javascript is ... </p>
+
+    <button id="secondButton"> second Button for Append text </button>
+
+    <p id="thirdParagraph"></p>
+
+    <button id="thirdButton"> third Button for the surprise text </button>
+
+    
+
+    <script type="text/javascript">
+
+        document.getElementById("firstButton").onclick = function () {
+
+            document.getElementById("firstParagraph").innerHTML = "Hello Ghost!"
+        }
+
+        document.getElementById("secondButton").onclick = function () {
+
+            document.getElementById("SecondParagraph").innerHTML = "I think .." + document.getElementById("SecondParagraph").innerHTML + "awesome!";
+        }
+
+        document.getElementById("thirdButton").onclick = function () {
+
+            document.getElementById("thirdParagraph").innerHTML = "<h1>Hi there!</h1>";
+
+        }
+
+        /*
+        
+        In this javascript file we are going to see three terminilogies like
+        Change the text
+        Append the text 
+        appear text out of the blu 
+
+        This all will happen based on a button click.
+
+        Kinldy look into the javascript codes there we have just used the things we have learned in the previous html files.
+
+        onClick Function and also using the innerHtml Function.
+
+        */
+
+    </script>
+</body>
+
+</html>
